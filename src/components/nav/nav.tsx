@@ -34,7 +34,7 @@ export const Nav = (props: Props) => {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        <img src={SyaqIcon} />
+        <img src={SyaqIcon}  alt="icon1"/>
       </Typography>
       <Divider />
 
@@ -120,7 +120,7 @@ export const Nav = (props: Props) => {
                 component="div"
                 sx={{ display: { xs: "none", md: "block" } }}
               >
-                <img src={SyaqIcon} />
+                <img src={SyaqIcon} alt="icon2" />
               </Typography>
             </Box>
 

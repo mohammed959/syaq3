@@ -1,6 +1,6 @@
 import React from "react";
-import { Grid, Paper } from "@mui/material";
-import { styled, useMediaQuery } from "@mui/material";
+import { Grid } from "@mui/material";
+import { useMediaQuery } from "@mui/material";
 import { FamouseWords } from "./famouswords/famouswords";
 import { WordOrigin } from "./wordorigin/wordorigin";
 import { Statistics } from "./statistics/statistics";
