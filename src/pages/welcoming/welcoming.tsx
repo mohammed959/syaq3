@@ -25,7 +25,7 @@ export const Welcoming = () => {
         }}
       >
         <Box sx={{ marginTop: 20 }}>
-          <img src={Syaq} width="100px" />
+          <img src={Syaq} width="100px" alt="image3" />
         </Box>
 
         <Grid
