@@ -1,0 +1,25 @@
+
+.nav-link {
+    margin-right: 4px;
+    margin-left: 4px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    position: relative;
+  }
+  
+  .nav-link.active {
+    color: rgba(28, 119, 255, 1);
+  }
+  
+  .nav-link.active::before {
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgba(28, 119, 255, 1);
+  }
+  
